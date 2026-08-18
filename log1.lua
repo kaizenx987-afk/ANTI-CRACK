@@ -871,14 +871,6 @@ function autoBypass()
   HexPatches.MemoryPatch("libanogs.so", 0x44BC90, "h00 00 80 D2 C0 03 5F D6", 32);
   HexPatches.MemoryPatch("libanogs.so", 0x497E64, "h00 00 80 D2 C0 03 5F D6", 32);
   --Group2
-  HexPatches.MemoryPatch("libanogs.so", 0x1CD564, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x2449D4, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x37C418, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x4F5B38, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x4ABE38, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x4A9D18, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x403EAC, "h00 00 80 D2 C0 03 5F D6", 32);
-  HexPatches.MemoryPatch("libanogs.so", 0x4AB658, "h00 00 80 D2 C0 03 5F D6", 32);
   showToast("Checking Server  ")
   showToast("Server Found ")
   showToast("BYPASS ACTIVATED","0xFF00FF00","0xFF0000FF","15","18")
