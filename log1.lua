@@ -874,7 +874,7 @@ function autoBypass()
   --Group2
   showToast("Checking Server  ")
   showToast("Server Found ")
-  showToast("BYPASS ACTIVATED1","0xFF00FF00","0xFF0000FF","15","18")
+  showToast("NEW BYPASS ACTIVATED","0xFF00FF00","0xFF0000FF","15","18")
   task(100, function()
   end)
 end
